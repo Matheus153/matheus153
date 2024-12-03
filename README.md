@@ -8,6 +8,7 @@ Desenvolvedor FullStack Node.js | Python | AWS
 ![TypeScript](https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript)
 ![React](https://img.shields.io/badge/react-000?style=for-the-badge&logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js&logoColor=76ad64)
+![.NET](https://img.shields.io/badge/.net-black?style=for-the-badge&logo=dotnet)
 ![TailWind](https://img.shields.io/badge/TailWind-000?style=for-the-badge&logo=TailWindcss)
 ![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-000?style=for-the-badge&logo=streamlit)
