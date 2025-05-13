@@ -1,27 +1,41 @@
-
-
-
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
+  schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
+
+# Permissões necessárias para push
+permissions:
+  contents: write  # Permite escrita no repositório
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v2
+      # Checkout atualizado com token explícito
+      - uses: actions/checkout@v4  # Versão mais recente
+        with:
+          fetch-depth: 0  # Importante para histórico completo
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Passo do gerador 3D
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      # Commit e Push com configurações corretas
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          # Configuração de usuário oficial do GitHub Actions
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Comandos de git com autenticação explícita
           git add -A .
-          git commit -m "generated"
-          git push
+          git commit -m "Automated 3D profile update [skip ci]"
+          
+          # Push usando o token de forma segura
+          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
