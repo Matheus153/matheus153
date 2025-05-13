@@ -1,8 +1,12 @@
-## Me chamo Matheus Santos, criador de conteúdo de programação, jogos e tecnologia.
-  <br />
-<div align="center">
-  <h2>Desenvolvedor FullStack</h2><br />
+<div style="border: 2px solid #2ecc71; border-radius: 12px; padding: 20px;">
+  <h1>Me chamo Matheus Santos Lima!</h1> 
+  <h2> * Desenvolvedor FullStack, criador de conteúdo de programação, jogos e tecnologia. *</h2>
 </div>
+
+  <br/>
+  
+  
+ 
 
 <div align="center" >
 <a href="https://skillicons.dev"   >
@@ -12,6 +16,20 @@
   </div>
   <br />
   <br />
+  
+## Sobre Mim
+
+Olá! 👋 Sou um desenvolvedor fullstack apaixonado por transformar ideias em soluções digitais eficientes. Tenho experiência em desenvolvimento web criando aplicações robustas e escaláveis com Node.js, TypeScript, React, Firebase e MongoDB, além de explorar ferramentas como Streamlit para interfaces rápidas e intuitivas.
+
+Com uma base sólida em Data Science, utilizo o poder do Python e bibliotecas como Pandas e NumPy para análise de dados, automatização e tomada de decisões orientadas a dados. Também sou hábil no uso de SQL, NoSQL (PostgreSQL, MySQL, SQLite) e ferramentas como Jupyter Notebook e Anaconda para estruturar e explorar informações.
+
+Minhas habilidades em automação de testes complementam minha experiência de desenvolvimento, garantindo a qualidade das aplicações através de ferramentas como Cypress e Jenkins. Foco em práticas como testes exploratórios, de sanidade e em aplicações embutidas para entregar software confiável e eficiente.
+
+Adoro aprender, compartilhar conhecimento e enfrentar novos desafios! 🚀 Meu objetivo é contribuir para projetos impactantes e continuar evoluindo como profissional. Vamos colaborar? 
+
+<br/>
+
+ ![Status](./profile-3d-contrib/profile-night-rainbow.svg)
 
 | [![GitHub Commits](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=matheus153&theme=dracula&utcOffset=-3)](https://github.com/vn7n24fzkq/github-profile-summary-cards) | [![GitHub Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=matheus153&theme=dracula)](https://github.com/vn7n24fzkq/github-profile-summary-cards) |  
 | ----------- | ----------- |
@@ -23,20 +41,12 @@
   <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Matheus153&layout=compact&theme=react&show_icons=true)"/>
 </div>
 
-## Sobre Mim
 
-Olá! 👋 Sou um desenvolvedor fullstack apaixonado por transformar ideias em soluções digitais eficientes. Tenho experiência em desenvolvimento web criando aplicações robustas e escaláveis com Node.js, TypeScript, React, Firebase e MongoDB, além de explorar ferramentas como Streamlit para interfaces rápidas e intuitivas.
-
-Com uma base sólida em Data Science, utilizo o poder do Python e bibliotecas como Pandas e NumPy para análise de dados, automatização e tomada de decisões orientadas a dados. Também sou hábil no uso de SQL, NoSQL (PostgreSQL, MySQL, SQLite) e ferramentas como Jupyter Notebook e Anaconda para estruturar e explorar informações.
-
-Minhas habilidades em automação de testes complementam minha experiência de desenvolvimento, garantindo a qualidade das aplicações através de ferramentas como Cypress e Jenkins. Foco em práticas como testes exploratórios, de sanidade e em aplicações embutidas para entregar software confiável e eficiente.
-
-Adoro aprender, compartilhar conhecimento e enfrentar novos desafios! 🚀 Meu objetivo é contribuir para projetos impactantes e continuar evoluindo como profissional. Vamos colaborar?
-
+<!--
 <picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matheus153/matheus153/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/matheus153/matheus153/output/github-contribution-grid-snake-dark.svg">
   <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/matheus153/matheus153/output/github-contribution-grid-snake.svg">
 </picture>
-
+>
 
