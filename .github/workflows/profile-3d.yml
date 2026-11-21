@@ -5,37 +5,32 @@ on:
     - cron: "0 18 * * *"
   workflow_dispatch:
 
-# Permissões necessárias para push
 permissions:
-  contents: write  # Permite escrita no repositório
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      # Checkout atualizado com token explícito
-      - uses: actions/checkout@v4  # Versão mais recente
-        with:
-          fetch-depth: 0  # Importante para histórico completo
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v5
 
-      # Passo do gerador 3D
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Para contar também contribuições privadas, crie um Personal Access Token
+          # e salve como secret MY_GITHUB_TOKEN. Sem ele, usa o GITHUB_TOKEN padrão.
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      # Commit e Push com configurações corretas
       - name: Commit & Push
         run: |
-          # Configuração de usuário oficial do GitHub Actions
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # Comandos de git com autenticação explícita
           git add -A .
-          git commit -m "Automated 3D profile update [skip ci]"
-          
-          # Push usando o token de forma segura
-          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
+          # Só faz commit se houver mudanças (evita falha com "nothing to commit")
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração no SVG; nada para commitar."
+          else
+            git commit -m "Automated 3D profile update [skip ci]"
+            git push
+          fi
