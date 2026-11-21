@@ -1,6 +1,6 @@
 <div style="border: 2px solid #2ecc71; border-radius: 12px; padding: 20px;">
-  <h1>Me chamo Matheus Santos Lima!</h1>
-  <h2><em>Desenvolvedor FullStack, criador de conteúdo de programação, jogos e tecnologia.</em></h2>
+  <h1>Matheus Santos Lima</h1>
+  <h2><em>Desenvolvedor de Software · Full Stack · Dados · Automação de Testes</em></h2>
 </div>
 
 <br/>
@@ -15,13 +15,19 @@
 
 ## Sobre Mim
 
-Olá! 👋 Sou um desenvolvedor fullstack apaixonado por transformar ideias em soluções digitais eficientes. Tenho experiência em desenvolvimento web criando aplicações robustas e escaláveis com Node.js, TypeScript, React, Firebase e MongoDB, além de explorar ferramentas como Streamlit para interfaces rápidas e intuitivas.
+Sou Desenvolvedor de Software com atuação em sistemas em Python, análise e extração de dados, soluções de dados e práticas de DevOps/CI. Sou bacharel em Engenharia de Produção, formação que trouxe para a minha rotina de desenvolvimento uma visão orientada a processos, eficiência e resultados.
 
-Com uma base sólida em Data Science, utilizo o poder do Python e bibliotecas como Pandas e NumPy para análise de dados, automatização e tomada de decisões orientadas a dados. Também sou hábil no uso de SQL, NoSQL (PostgreSQL, MySQL, SQLite) e ferramentas como Jupyter Notebook e Anaconda para estruturar e explorar informações.
+**O que eu faço**
 
-Minhas habilidades em automação de testes complementam minha experiência de desenvolvimento, garantindo a qualidade das aplicações através de ferramentas como Cypress e Jenkins. Foco em práticas como testes exploratórios, de sanidade e em aplicações embutidas para entregar software confiável e eficiente.
+- **Desenvolvimento web full stack:** aplicações com Node.js, TypeScript, React, Next.js, Firebase e MongoDB, além de interfaces rápidas com Streamlit.
+- **Dados:** análise, tratamento e automação com Python, Pandas e NumPy; modelagem e consultas em PostgreSQL, MySQL, SQLite e bancos NoSQL.
+- **Qualidade e automação:** testes automatizados com Cypress, pipelines de CI com Jenkins e testes exploratórios, de sanidade e em sistemas embarcados.
 
-Adoro aprender, compartilhar conhecimento e enfrentar novos desafios! 🚀 Meu objetivo é contribuir para projetos impactantes e continuar evoluindo como profissional. Vamos colaborar?
+**Trajetória**
+
+Tenho experiência como analista de dados e em desenvolvimento de testes, com automação em Python e Vue.js e criação de dashboards de BI. Também publiquei um artigo como capítulo de e-book pela Atena Editora.
+
+Estou sempre aberto a trocar conhecimento e colaborar em projetos. Fique à vontade para me chamar no [LinkedIn](https://www.linkedin.com/in/mathdev-lima)!
 
 <br/>
 
